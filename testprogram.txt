@@ -1,0 +1,44 @@
+inteiro TOTAL;
+inteiro RESPOSTA;
+
+prototipo inteiro SOMA(inteiro A, inteiro B), SUM(inteiro A, inteiro B);
+prototipo semretorno INCREMENTA(inteiro);
+
+inteiro SOMA(inteiro A, inteiro B){
+	inteiro RESULT;
+	RESULT = A + B;
+	retorne A;
+}
+
+semretorno INCREMENTA(inteiro NUM){
+	TOTAL = TOTAL + NUM;
+}
+
+semretorno PRINCIPAL(semparam){
+	inteiro NUMERO,i;
+	inteiro A,B,C;
+
+	A = 1;
+	B = 2;
+	C = 3;
+
+	se (A<B) RESPOSTA = A;
+
+	senao RESPOSTA = B;
+
+	se (C>B) RESPOSTA = C;
+	
+	NUMERO = SOMA(5,3);
+
+	enquanto(i>3){
+		INCREMENTA(i);
+		i = i+1;
+	}
+
+	para(i=1;i<10;i=i+1){
+		C = SOMA(i,i);
+	}
+
+	i = 100;
+	A = i + SOMA(B,C);
+}
