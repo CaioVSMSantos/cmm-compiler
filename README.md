@@ -1,7 +1,6 @@
 # Cmm Compiler
 
 Compiler for a simple language called Cmm.
-Made for a College Project.
 
 ### Structure
 
